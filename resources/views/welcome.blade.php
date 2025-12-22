@@ -6,15 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laravel + Docker</title>
 
-    <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 
     <style>
         body {
             margin: 0;
             font-family: 'Inter', sans-serif;
-            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-            color: #ffffff;
+            background: #f4f6f8;
+            color: #1f2937;
             min-height: 100vh;
             display: flex;
             align-items: center;
@@ -22,28 +21,28 @@
         }
 
         .container {
-            background: rgba(255, 255, 255, 0.08);
-            backdrop-filter: blur(10px);
-            border-radius: 16px;
+            background: #ffffff;
+            border-radius: 12px;
             padding: 40px;
             max-width: 900px;
             width: 90%;
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
             text-align: center;
         }
 
         h1 {
-            font-size: 2.8rem;
+            font-size: 2.6rem;
             margin-bottom: 10px;
+            font-weight: 700;
         }
 
         h1 span {
-            color: #ff2d20;
+            color: #ff2d20; /* Laravel red */
         }
 
         p {
-            font-size: 1.1rem;
-            opacity: 0.9;
+            font-size: 1.05rem;
+            color: #4b5563;
             margin-bottom: 30px;
         }
 
@@ -55,33 +54,36 @@
         }
 
         .card {
-            background: rgba(255, 255, 255, 0.12);
-            border-radius: 12px;
-            padding: 20px;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            background: #f9fafb;
+            border: 1px solid #e5e7eb;
+            border-radius: 10px;
+            padding: 25px 20px;
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
         }
 
         .card:hover {
-            transform: translateY(-6px);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+            transform: translateY(-4px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
         }
 
         .card img {
-            width: 70px;
-            height: 70px;
+            width: 60px;
+            height: 60px;
             object-fit: contain;
             margin-bottom: 15px;
         }
 
         .card h3 {
             margin: 0;
-            font-size: 1.1rem;
+            font-size: 1.05rem;
+            font-weight: 600;
+            color: #111827;
         }
 
         footer {
-            margin-top: 40px;
-            font-size: 0.9rem;
-            opacity: 0.7;
+            margin-top: 35px;
+            font-size: 0.85rem;
+            color: #6b7280;
         }
     </style>
 </head>
@@ -91,7 +93,7 @@
     <div class="container">
         <h1>Welcome to <span>Laravel + Docker</span></h1>
         <p>
-            Your application is successfully running inside a Docker container 🚀
+            Your application is successfully running inside a Docker container.
             Clean. Isolated. Production-ready.
         </p>
 
