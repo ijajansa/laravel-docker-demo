@@ -37,7 +37,8 @@
         }
 
         h1 span {
-            color: #ff2d20; /* Laravel red */
+            color: #ff2d20;
+            /* Laravel red */
         }
 
         p {
@@ -91,7 +92,7 @@
 <body>
 
     <div class="container">
-        <h1>Welcome to <span>Laravel + Docker</span></h1>
+        <h1>Welcome to <span>Laravel + Docker Ijaj</span></h1>
         <p>
             Your application is successfully running inside a Docker container.
             Clean. Isolated. Production-ready.
