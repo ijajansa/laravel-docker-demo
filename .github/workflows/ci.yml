@@ -77,6 +77,3 @@ jobs:
             docker compose down
             docker compose pull
             docker compose up -d --build
-            # Run artisan commands inside the container
-            # docker compose exec app php artisan migrate --force
-            docker compose exec app php artisan optimize:clear
