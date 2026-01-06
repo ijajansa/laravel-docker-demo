@@ -110,7 +110,7 @@
             </div>
 
             <div class="card">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" alt="Database">
+                <img src="https://logo.svgcdn.com/logos/mysql.svg" alt="Database">
                 <h3>Database</h3>
             </div>
 
